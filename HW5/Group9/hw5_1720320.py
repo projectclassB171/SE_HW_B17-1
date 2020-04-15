@@ -16,8 +16,8 @@ dic.update({"high": high, "mobil_phone": mobil_phone})
 print(dic)
 
 # 题目<4>
-for i in dict:
-    print("{}:{}".format(i,dict[i]))
+for i in dic:
+    print("{}:{}".format(i,dic[i]))
 
 # 题目<5>
 li = [11, 22, 33, 22, 22, 44, 55, 77, 88, 99, 11]
