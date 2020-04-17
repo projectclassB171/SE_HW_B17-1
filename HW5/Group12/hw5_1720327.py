@@ -3,9 +3,9 @@
 name = input("请输入你的姓名：")
 sex = input("请输入你的性别：")
 age = input("请输入你的年龄：")
-dic = {}
-dic.update({"姓名": name, "性别": sex, "年龄": age})
-print(dic)
+dict = {}
+dict.update({"姓名": name, "性别": sex, "年龄": age})
+print(dict)
 
 #题目2
 
