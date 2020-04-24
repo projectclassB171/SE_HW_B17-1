@@ -16,7 +16,7 @@ dic["age"] = age
 
 print(dic)
 
-#（2）数据存储完了，然后输出个人介绍，格式如下: 我的名字曾江，今年20岁，性别男，喜欢敲代码
+#（2）数据存储完了，然后输出个人介绍，格式如下: 我的名字易星作，今年20岁，性别男，喜欢敲代码
 
 name = input("请输入你的姓名:")
 
@@ -24,7 +24,7 @@ sex = input("请输入你的性别:")
 
 age = int(input("请输入你的年龄:"))
 
-dic = {'name': '曾江', 'sex': '男','age':'20'}
+dic = {'name': '易星作', 'sex': '男','age':'20'}
 
 dic["name"] = name
 
@@ -40,7 +40,7 @@ height = input("请输入你的身高：")
 
 telephone = input("请输入你的联系方式：")
 
-dic = {'name': '曾江', 'sex': '男','age':'20'}
+dic = {'name': '易星作', 'sex': '男','age':'20'}
 
 dic["height"] = height
 
