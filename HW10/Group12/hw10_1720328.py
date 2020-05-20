@@ -13,16 +13,15 @@ from pip._vendor.distlib.compat import raw_input
 
 conn = sqlite3.connect('people.db')
 
-# 在该数据库下创建表，创建表的这段代码在第一次执行后需要注释掉，否则再次执行程序会一直提示：该表已存在
 
-#conn.execute('''CREATE TABLE USER
-#      (ID INT PRIMARY KEY     NOT NULL,
-#    NAME           TEXT    NOT NULL,
- #      PHONE       TEXT     NOT NULL,
-  #      COMPANY      CHAR(50),
-   #   ADDRESS         CHAR(50));''')
-#print("Table created successfully")
-#conn.close()
+conn.execute('''CREATE TABLE USER
+      (ID INT PRIMARY KEY     NOT NULL,
+    NAME           TEXT    NOT NULL,
+      PHONE       TEXT     NOT NULL,
+       COMPANY      CHAR(50),
+      ADDRESS         CHAR(50));''')
+print("Table created successfully")
+conn.close()
 
 
 # 增加联系人
